@@ -1,0 +1,23 @@
+.container {
+  width: 60px;
+  height: 20px;
+  display: flex;
+  background: black;
+}
+
+.container .share {
+  width: 10px;
+  height: 10px;
+  flex: 1;
+  background-color: black;
+}
+
+.container .reply {
+  flex: 1;
+  background-color: aliceblue;
+}
+
+.container .up {
+  flex: 1;
+  background-color: black;
+}
