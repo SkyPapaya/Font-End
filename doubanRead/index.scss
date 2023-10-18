@@ -1,0 +1,442 @@
+.main{
+    position: relative;
+    width:1440px;
+    height:3557px;
+    left: 200px;
+    .head{
+        background-color: #545652;;
+        position: relative;
+       
+        .first{
+            margin-left: 12px;
+            color: #D5D5D5;
+            
+        }
+        span{
+            font-size: 12px;
+            margin-right: 24px;
+            color: #D5D5D5;
+        }
+        .second{
+
+           position: absolute;
+           right: 100px;
+           top:3px;
+           color: #D5D5D5;
+
+
+        }
+        .last{
+           position: absolute;
+           right: 12px;
+           top:3px;
+           color: #D5D5D5;
+        }
+        .font{
+            position: absolute;
+            display: inline-block;
+            bottom: 7px;
+        }
+    }
+    .second-head{
+        width:1440px;
+        height:115px;
+        background-color:#f6f6f1;
+        position: relative;
+        .search-box{
+            width:461px;
+            height: 30px;
+            position: absolute;
+            left: 389px;
+            top: 26px;
+        }
+    .read{
+        width:141px;
+        height:32px;
+        position: absolute;
+        left: 200px;
+        top:24px;
+
+    }
+  
+    .search{
+        width:33px;
+        height: 35px;
+        position: absolute;
+        left: 858PX;
+        top: 26px;
+
+    }
+    .text{
+        width:186px;
+        height: 96px;
+        position: absolute;
+        top: 10px;
+        right: 200px;
+    
+    }
+    .font{
+        display: inline-block;
+        font-size: 12px;
+        font-weight: 400;
+        color: #614E3C;
+        margin-left: 10px;
+        margin-top: 90px;
+    }
+}
+
+.more{
+    width: 675px;
+    .newBook{
+
+        font-size: 18px;
+        position: absolute;
+        left: 200px;
+        top: 162px;
+    }
+    .more2{
+        font-size: 13px;
+        color:#3377AA;
+        position: absolute;
+        left: 287px;
+        top: 167px;
+
+    }
+    .circle{
+        display: inline-block;
+        position: absolute;
+        left: 804px;
+        
+        li{
+            display: inline-block;
+            width: 5px;
+            height: 5px;
+            border-radius: 5px;
+            background: #dfdfdf;
+        }
+        .first-circle{
+            background: #9b9a8f;
+        }
+    }
+
+}
+.array1{
+    display: inline-block;
+    position: absolute;
+    top: 154px;
+    right: 503px;
+
+}
+.array2{
+    display: inline-block;
+    position: absolute;
+    top: 156px;
+    right: 476px;
+
+
+}
+
+.newBooks{
+    display: flex;
+    justify-content: space-around;
+    width: 800px;
+    margin-top: 50px;
+    margin-left: 200px;
+    li{
+        position: relative;
+        display: inline-block;
+        margin-right: 25px;
+        margin-top:30px ;
+        width: 115px;
+        height: 181px;
+        img{
+            width: 115px;
+            height: 161px;
+        }
+        span{
+            display:inline-block ;
+            position: absolute ;
+            height: 16px;
+            width: 112px;
+            bottom: 0px ;
+            left: 0px;
+            color: #3377AA;
+        }
+    }
+    
+}
+
+.attention{
+    width: 675px;
+    height: 850px;
+    position: absolute;
+    left: 240px;
+    top: 740px;
+    display: flex;
+    flex-wrap: wrap;
+    .box-a{
+        margin-right: 30px;
+        position: relative;
+        .title-a{
+            position: absolute;
+            top: 5px;
+            display: inline-block;
+            left: 100px;
+
+        }
+        .stars{
+            
+            display: inline-block;
+            position: absolute;
+            top:30px;
+            left: 100px;
+            img{
+            width: 55px;
+            height: 11px;
+            }
+
+        }
+        
+        .author-a{
+            position: absolute;
+            top: 50px;
+            display: inline-block;
+            left: 100px;
+        }
+        img{
+            width: 72px;
+            height: 120px;
+        }
+        width: 300px;
+        height: 120px;
+        margin-right: 20px;
+    }
+}
+.hot{
+    display: flex;
+    justify-content: space-around;
+    width: 800px;
+    position: absolute;
+    left: 200px;
+    top: 1628px;
+    
+    li{
+        position: relative;
+        display: inline-block;
+        margin-top:30px ;
+        width: 115px;
+        height: 181px;
+        margin-right: 20px;
+        img{
+            width: 106px;
+            height: 158px;
+        }
+        span{
+            display:inline-block ;
+            position: absolute ;
+            width: 70px;
+            height: 15px;
+            bottom: 0px ;
+            left: 0px;
+        }
+    }
+
+}
+.popular{
+    width: 675px;
+    height: 650px;
+    position: absolute;
+    left: 240px;
+    top: 2150px;
+    
+    .box-p{
+        margin-top: 20px;
+        img{
+            width:75px;
+            height: 108px;
+            display: inline-block;
+        }
+        .right-p{
+        display: inline-block;
+        width: 570px;
+        height: 110px;
+        
+        .title-p{
+            height: 27px;
+            color: #3377AA;
+        font-size: 15px;
+           
+        }
+        .name-p{
+            height: 22px;
+            color: #666666;
+            font-size: 13px;
+           
+
+        }
+        .stars-p{
+            img{
+         width: 55px;
+        height: 11px;
+            }
+            
+        
+        }
+        .comment-p{
+            height: 20px;
+            color: #111111;
+            font-size: 13px;
+      
+                
+        }
+    }
+    }
+
+
+
+}
+.right-1{
+    
+    position: absolute;
+        right: 0px;
+        top: 192px;
+        span{
+            display: block;
+        }
+    .box{
+        width: 300px;
+        height: 76px;
+        display: flex;
+        flex-wrap: wrap;
+        
+
+        div{
+            font-size: 13px;
+            background-color:  #F5F5F5;;
+            color: #3377AA;
+            width: 48px;
+            height: 22px;
+            margin-right: 2px;
+           
+        
+           
+
+        }
+
+    }
+    
+}
+.right-2{
+    width: 300px;
+    height: 500px;
+    position: absolute;
+    right: 0px;
+    margin-top: 180px;
+        .first{
+            width: 300px;
+            height: 52px;
+            position: relative;
+            .bookName{
+                position: absolute;
+                left: 5px;
+                color: #3377AA;
+                font-size: 14px;
+            
+            }
+            .author{
+                position: absolute;
+                left: 16px;
+                top: 20px;
+                color:#666666;
+                font-size: 14px;
+
+            }
+            .buy{
+                position: absolute;
+                right: 5px;
+                font-size: 13px;
+                right: 5px;
+            }
+
+
+        }
+    
+}
+
+.right-3{
+   
+    width: 300px;
+    height: 550px;
+    position: absolute;
+    right: 0px;
+    top: 1400px;
+    display: flex;
+    flex-wrap: wrap;
+  
+
+   
+  div{
+    width: 85px;
+    height: 150px;
+    text-align: center;
+    img{
+        width: 85px;
+        height: 123px;
+        background-color: #3377AA;
+        
+    }
+  }
+  .head-3{
+    width: 300px;
+    height: 20px;
+    text-align: left;
+}
+.more{
+    display: inline-block;
+    margin-left: 100px;
+    color: #3377AA;
+    width: 50px;
+    height: 20px;
+   }
+}
+.right-4{
+    position: absolute;
+    right: 0px;
+    top: 2000px;
+    width: 300px;
+    .image-4{
+        display: inline-block;    
+        text-align: center;
+        height: 60px;
+        width: 43px;
+        margin-right: 10px;
+        margin-top: 20px;
+        img{
+         width: 40px;
+        height: 40px;
+         display: inline-block;
+        }
+        span{
+            font-size: 14px;
+        }
+    }
+
+}
+.foot{
+    width: 1040px;
+    height: 48px;
+    position: absolute;
+    bottom: 54px;
+    left: 240px;
+    div{
+        margin:5px;
+        display: inline;
+        .first-f{
+            position: absolute;
+            left: 722px;
+        }
+    }
+}
+
+
+}
